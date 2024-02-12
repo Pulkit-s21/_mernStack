@@ -6,3 +6,18 @@ export default {
   },
   plugins: [],
 }
+
+
+// git add* -- git add (file)
+// git status
+// git commit ' test'
+// git pull
+// git push
+// git log 
+
+// git merge origin/master
+
+// git fetch 
+// git rebase
+// git reset -- soft / hard 
+

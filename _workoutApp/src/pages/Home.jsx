@@ -19,9 +19,9 @@ export const Home = () => {
   }, [dispatch])
 
   return (
-    <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
+    <div className="grid grid-cols-1 gap-4 md:grid-cols-2 p-6">
       <WorkoutForm />
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 pt-4 place-items-center">
+      <div className="grid grid-cols-1 xl:grid-cols-2 gap-4 pt-4 place-items-center">
         {workouts?.map((workout) => {
           return <WorkoutDetails key={workout._id} workout={workout} />
         })}

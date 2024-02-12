@@ -38,8 +38,7 @@ export const WorkoutForm = () => {
         <div className="flex justify-between">
           <label htmlFor="title">Exercise Title</label>
           <input
-            className="text-center border-2 border-neutral-500"
-            required
+            className={`text-center border-2 border-neutral-500`}
             ref={titleRef}
             type="text"
             id="title"
@@ -51,8 +50,7 @@ export const WorkoutForm = () => {
         <div className="flex justify-between">
           <label htmlFor="load">Load (kg): </label>
           <input
-            className="text-center border-2 border-neutral-500"
-            required
+            className={`text-center border-2 border-neutral-500`}
             type="number"
             id="load"
             value={load}
@@ -63,8 +61,7 @@ export const WorkoutForm = () => {
         <div className="flex justify-between">
           <label htmlFor="reps">Reps: </label>
           <input
-            className="text-center border-2 border-neutral-500"
-            required
+            className={`text-center border-2 border-neutral-500`}
             type="number"
             id="reps"
             value={reps}
